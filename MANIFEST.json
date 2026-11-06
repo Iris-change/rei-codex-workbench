@@ -9,8 +9,8 @@
     },
     {
       "path": "ASSETS.md",
-      "bytes": 1561,
-      "sha256": "6d5664c401d6acbbaaad602af2cdefc90fef02bfdc649e268429d52425119a62"
+      "bytes": 1636,
+      "sha256": "eb27bfe6070caad6b228db2bcbf71a7046f4a4013fbffb8f5b7b386aa75b42b2"
     },
     {
       "path": "CODE-ORIGINS.md",
@@ -59,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5601,
-      "sha256": "8fcc3fc4ed206d9e89053b5486539072253d6ca022c7d89c9fd653170e723b4f"
+      "bytes": 5628,
+      "sha256": "5c7995f0c9d5b13ca22ce92f9dd0a6b9ca2cc26a2f9fba404beb108e79a34677"
     },
     {
       "path": "Start-Rei.cmd",
@@ -248,6 +248,11 @@
       "sha256": "3ab5a200aa81e529c839cf749103634bb9db0413aefff4135e50fe07a4a3dfef"
     },
     {
+      "path": "workbench/public/media/public/rei-lineart.png",
+      "bytes": 1809226,
+      "sha256": "256184432eceecbe0eacf3adb1b0635264d59d58576f86b96d4310f7c5b1f87d"
+    },
+    {
       "path": "workbench/public/media/public/theme-title.svg",
       "bytes": 258,
       "sha256": "4331160c7979729028056558bd43d1f107d79d5dd639fd2760ebda44388a7b83"
@@ -289,8 +294,8 @@
     },
     {
       "path": "workbench/public/rei.css",
-      "bytes": 4808,
-      "sha256": "ba1f3d0e5a09dfc5ca2e3670e51f0671ee07c44ed7be9267999c1e378a06887f"
+      "bytes": 4868,
+      "sha256": "fc7dde6d90bbe9b905805e80759462e927096ccb4b458dbe89d5363480bb3099"
     },
     {
       "path": "workbench/public/scan-workbench.js",
