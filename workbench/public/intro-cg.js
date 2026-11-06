@@ -11,7 +11,7 @@ const load=src=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>
 
 export async function startIdentity(){
  await document.fonts.load('900 40px "Unit02 Mincho"','系统唤醒零号机绫波丽');
- const [nerv,title,knot]=await Promise.all([load('/media/public/unit-mark.svg'),load('/media/public/theme-title.svg'),load('/media/public/connection.svg')]);
+ const [nerv,title,knot]=await Promise.all([load('/media/public/nerv.svg'),load('/media/public/theme-title.svg'),load('/media/public/connection.svg')]);
  const canvas=document.getElementById('sequence'),source=document.createElement('canvas'),target=document.createElement('canvas'),terminal=document.createElement('canvas');
  source.width=target.width=terminal.width=W;source.height=target.height=terminal.height=H;
  const c=source.getContext('2d'),tc=target.getContext('2d');tc.fillStyle='#e4eef3';tc.fillRect(0,0,W,H);

@@ -9,8 +9,8 @@
     },
     {
       "path": "ASSETS.md",
-      "bytes": 1636,
-      "sha256": "eb27bfe6070caad6b228db2bcbf71a7046f4a4013fbffb8f5b7b386aa75b42b2"
+      "bytes": 1659,
+      "sha256": "19c3eecca6302bf9c403add87f8b23c8530d0932a9a48738ffa60f68247683f9"
     },
     {
       "path": "CODE-ORIGINS.md",
@@ -59,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5628,
-      "sha256": "5c7995f0c9d5b13ca22ce92f9dd0a6b9ca2cc26a2f9fba404beb108e79a34677"
+      "bytes": 5668,
+      "sha256": "f84d03ad8cf6c84eba6ad16f39952b1932b2f17434c036a84f3f1df82722527d"
     },
     {
       "path": "Start-Rei.cmd",
@@ -204,8 +204,8 @@
     },
     {
       "path": "workbench/public/intro-cg.js",
-      "bytes": 15488,
-      "sha256": "2300136240e72c052f95c7e9809877b3a7b62dbbbf49a135e69945484efb03fd"
+      "bytes": 15483,
+      "sha256": "dd2e8b4ad9c2e54045ac74de3234c0082271bf9d38eabcae473b893e8bbf01ae"
     },
     {
       "path": "workbench/public/intro-rei.css",
@@ -219,8 +219,8 @@
     },
     {
       "path": "workbench/public/intro.html",
-      "bytes": 1809,
-      "sha256": "12d2755c1f82ae59b2b00bafc229275abad20947dd54e0476f76d67d1d975757"
+      "bytes": 1819,
+      "sha256": "34833be76977f17f61e42c22acf1d08e1d4d1b9683d2a754d3c0b956adc4d6de"
     },
     {
       "path": "workbench/public/intro.js",
@@ -231,6 +231,11 @@
       "path": "workbench/public/media/public/connection.svg",
       "bytes": 342,
       "sha256": "3260dda9dc86c0a3fe65707570fd596ac41ad107eeae47b9c177a32081d51021"
+    },
+    {
+      "path": "workbench/public/media/public/nerv.svg",
+      "bytes": 30557,
+      "sha256": "ce7adb12c9a9411dd03233beafc170d148c758d41585a105cfef10a7a46cd12c"
     },
     {
       "path": "workbench/public/media/public/pattern.svg",
@@ -251,6 +256,11 @@
       "path": "workbench/public/media/public/rei-lineart.png",
       "bytes": 1809226,
       "sha256": "256184432eceecbe0eacf3adb1b0635264d59d58576f86b96d4310f7c5b1f87d"
+    },
+    {
+      "path": "workbench/public/media/public/rei-pilot-white.png",
+      "bytes": 1559361,
+      "sha256": "9fb41199adc94fe158bf933bd593aae1b4842e928f6eab2dcefb5aadc5781ad4"
     },
     {
       "path": "workbench/public/media/public/theme-title.svg",
