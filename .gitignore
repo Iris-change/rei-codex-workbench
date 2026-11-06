@@ -1,0 +1,12 @@
+node_modules/
+workbench/data/
+workbench/tests/sandbox/
+workbench/tests/current/
+.verification/
+output/
+*.log
+*.mp4
+*.webm
+.env*
+auth.json
+credentials*

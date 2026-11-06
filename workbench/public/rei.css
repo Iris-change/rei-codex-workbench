@@ -1,0 +1,25 @@
+/* Original template layout, white/blue palette and private Rei artwork. */
+:root{color-scheme:light;--bg:#f8fcff;--panel:#edf6fc;--raised:#fff;--border:#c5deeb;--accent:#3a91bc;--purple:#2a7fa9;--pink:#5aa7ca;--text:#21495f;--muted:#587d94}
+html,html.boot-pending:after,#animationDialog.identity-opening.identity-loading,#animationDialog.identity-opening.identity-loading iframe{background:#f8fcff}
+.sidebar{background:linear-gradient(165deg,#cfe9fa 0,#e5f2fa 170px,#f2f8fc 350px);border-color:#bfdaeb}.identity:before{content:'00';background:#3488b3;border-top-color:#8bd3ee;color:#fff}.identity img{display:block}.system-id b,.identity strong,.empty h2{color:#285b78}.primary,.composer #send{background:#328bb5;border-color:#328bb5;color:#fff}.primary:hover,.composer #send:hover{background:#23779f;border-color:#23779f}.new-task{background:#d6edf9;color:#245d7d;border:1px solid #aacee2}
+.workspace{background:linear-gradient(110deg,#fff,#f5fbff)}.suggestions button,.suggestions button+button{background:#ffffffa6;color:#3d7593;border-color:#c4deeb}.suggestions button:hover{background:#e4f4fd}.message .text{color:#244b62}.message-role,.message.user .message-role{color:#377c9f}
+#artworkLight{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;mask-image:linear-gradient(90deg,transparent 20%,#000 80%);-webkit-mask-image:linear-gradient(90deg,transparent 20%,#000 80%)}#artworkLight .artwork-plane{position:absolute;inset:-4% -8% -12% auto;width:66%;height:auto;aspect-ratio:auto;background:none;mask:none;transform:none;opacity:.22;mix-blend-mode:multiply}#artworkLight .artwork-base{position:absolute;inset:0;background:url('media/public/pattern.svg') 50% 30%/cover no-repeat;opacity:1;mask:none}#artworkLight .artwork-plane:before,#artworkLight .artwork-plane:after{display:none}.artwork-off #artworkLight{display:none}.has-session #artworkLight .artwork-plane{opacity:.09}
+.conversation{position:relative;z-index:1}.inspector{position:relative;z-index:2;background:#f0f7fc}.diff-add{color:#236d43;background:#e1f3e8}.diff-remove{color:#a2435a;background:#f9e6eb}.diff-hunk{color:#367b9d;background:#e1f0fa}.codex-node img{filter:brightness(0) saturate(100%) invert(42%) sepia(29%) saturate(1100%) hue-rotate(157deg)}
+body.contrast{--text:#10354c;--muted:#335b73;--border:#88aec5}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:#398cb6}.composer small,.empty p{color:#587c91}
+@media(max-width:899px){#artworkLight .artwork-plane{width:100%;right:-30%;opacity:.16}}
+/* Rei's hair blue adds emphasis while the reading surface remains white. */
+:root{--accent:#3d8fd0;--purple:#347fc3;--pink:#75b9eb;--border:#bad9ee}
+.sidebar{background:linear-gradient(160deg,#9ecaf1 0,#c5e1f8 185px,#e9f5fd 440px);border-right-color:#87b9df}
+.identity strong,.system-id b{color:#2365a1}.section-label{color:#416f9a}.project,.thread{color:#315e83}.thread-empty{color:#587b9a}
+.new-task{background:#dbeeff;border-color:#8bbce3;color:#24649c}.new-task:hover{background:#c9e5fc;border-color:#569cd0}.new-task span{color:#327fb9}
+.project.active,.thread.active{background:#b6daf7;color:#205889;box-shadow:inset 3px 0 #3989ca}.project:hover,.thread:hover{background:#cce7fa}
+header{background:linear-gradient(100deg,#e3f2fd,#f6fbff);border-bottom-color:#bad9ed}.session-bar{background:#f1f8fe}.connection{color:#397caf}
+.primary,.composer #send{background:#347fc3;border-color:#347fc3;color:#fff}.primary:hover,.composer #send:hover{background:#226cae;border-color:#226cae}
+#replayIntro{background:#d6ebfc;border-color:#93c1e4;color:#286ca5}#replayIntro:hover{background:#bfdef6;border-color:#68a5d4}
+.suggestions button,.suggestions button+button{border-color:#a8ceeb;color:#3478af;background:#edf7ffa6}.suggestions button:hover{background:#dceffd}
+#threadSearch,#fileFilter{background:#f1f9ff;border-color:#a6cce7;color:#315e83}.composer select{background:#e9f4fc;border-color:#c0dced;color:#3c719a}
+#artworkLight .artwork-plane{opacity:.32}.has-session #artworkLight .artwork-plane{opacity:.11}
+body:before{border-color:#68a5d4;background:repeating-linear-gradient(135deg,#74afe0 0 6px,#e8f5ff 6px 13px) left 2px top 160px/8px calc(100% - 220px) no-repeat,repeating-linear-gradient(45deg,#74afe0 0 6px,#e8f5ff 6px 13px) right 2px top 160px/8px calc(100% - 220px) no-repeat}
+header:after{background:repeating-linear-gradient(125deg,#5095cc 0 9px,#e8f5ff 9px 18px)}footer{border-bottom-color:#68a5d4}footer:before{background:repeating-linear-gradient(120deg,#5a9ed2 0 5px,#e8f5ff 5px 10px)}
+.scan-beam:after{background:#70b8e788;box-shadow:0 0 7px #75b9eb66}.inspector-tabs .selected{color:#2875b4;border-bottom-color:#4b99d2}
+@media(max-width:899px){#artworkLight .artwork-plane{opacity:.23}.has-session #artworkLight .artwork-plane{opacity:.09}}

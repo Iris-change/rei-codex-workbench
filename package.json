@@ -1,0 +1,17 @@
+{
+  "name": "rei-codex-workbench",
+  "version": "0.3.0-preview",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "setup": "npm --prefix workbench ci",
+    "test": "node --test workbench/tests/*.test.cjs",
+    "test:live": "node workbench/tests/live-isolated.cjs",
+    "test:tools": "node workbench/tests/real-tools.cjs",
+    "test:browser": "node workbench/tests/browser-smoke.cjs",
+    "test:launcher": "node workbench/tests/launcher-isolated.cjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}
